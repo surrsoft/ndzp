@@ -1,8 +1,8 @@
 {
   "name": "ndzp_app",
   "version": "1.0.0",
-  "description": "node.js on docker",
-  "author": "first last <first.last@example.com>",
+  "description": "project-template; node.js static server at docker container",
+  "author": "surrsoft <evgebar-1@mail.ru>",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
