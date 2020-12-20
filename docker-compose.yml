@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  server:
+    build: .
+    image: "${PROJECT_NAME}_image"
+    container_name: "${PROJECT_NAME}_node"
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - 21810:8080
+    command: ["node", "server.js"]

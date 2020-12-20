@@ -1,0 +1,14 @@
+{
+  "name": "ndzp_app",
+  "version": "1.0.0",
+  "description": "node.js on docker",
+  "author": "first last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "dropbox": "^8.2.0"
+  }
+}
