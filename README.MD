@@ -2,8 +2,8 @@
 * это просто веб-сервер для статического контента, завёрнутый в docker-контейнер
 * статический контент раздаётся из папки `public`
 * места кастомизации:
-  * переменные `name`, `description`, `author` файла `package.json`
-  * переменная`PROJECT_NAME` файла `.env`
+  * переменные `name`, `description`, `author` и др. файла `package.json`
+  * переменные`PROJECT_NAME`, `PROJECT_PORT` и др. файла `.env`
 * запуск
   * `docker-compose up -d --remove-orphans`
 
